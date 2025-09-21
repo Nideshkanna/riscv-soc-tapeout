@@ -27,7 +27,7 @@ Each week has its own dedicated repo:
 | Week | Focus Area | Repository Link | Status |
 |------|------------|-----------------|---------|
 | **Week 0** | 🔧 Environment Setup & Tool Installation | [Week0](https://github.com/Nideshkanna/week0-getting-started) | ✅ Done |
-| **Week 1** | 📝 RTL Design Basics | *(Coming Soon)* | ⏳ Pending |
+| **Week 1** | 📝 RTL Design Basics | [Week1](https://github.com/Nideshkanna/week1-rtl-design-flow) | ⏳ Pending |
 | **Week 2** | 🔄 RTL to Gate-Level Synthesis | *(Upcoming)* | ⏳ Pending |
 | **Week 3** | 🏗️ Floorplanning & Placement | *(Upcoming)* | ⏳ Pending |
 | **Week 4** | ⏰ Clock Tree & Routing | *(Upcoming)* | ⏳ Pending |
@@ -61,7 +61,7 @@ Each week has its own dedicated repo:
 <div align="center">
 
 [![Week 0](https://img.shields.io/badge/Week%200-✅%20Done-green?style=flat-square)](https://github.com/Nideshkanna/week0-getting-started)
-![Week 1](https://img.shields.io/badge/Week%201-⏳%20Pending-lightgrey?style=flat-square)
+[![Week 1](https://img.shields.io/badge/Week%201-⏳%20Pending-lightgrey?style=flat-square)](https://github.com/Nideshkanna/week1-rtl-design-flow)
 ![Week 2](https://img.shields.io/badge/Week%202-Upcoming-blue?style=flat-square)
 ![Week 3](https://img.shields.io/badge/Week%203-Upcoming-blue?style=flat-square)
 
