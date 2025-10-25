@@ -24,14 +24,15 @@ This repository serves as the **main tracker** of my weekly tasks, with each wee
 
 Each week has its own dedicated repository:
 
-| Week        | Focus Area                                     | Repository Link                                                            | Status        |
-| ----------- | ---------------------------------------------- | -------------------------------------------------------------------------- | ------------- |
-| **Week 0**  | 🔧 Environment Setup & Tool Installation       | [Week0](https://github.com/Nideshkanna/week0-getting-started)              | ✅ Done        |
-| **Week 1**  | 📝 RTL Design Flow                             | [Week1](https://github.com/Nideshkanna/week1-rtl-design-flow)              | ✅ Completed   |
-| **Week 2**  | 🔄 BabySoC Functional Verification & Synthesis | [Week2](https://github.com/Nideshkanna/week2-research-babysoc) | ✅ Completed   |
-| **Week 3**  | 🏗️ STA & Timing Analysis                      | [Week3](https://github.com/Nideshkanna/week3_VSDBabySoC_GLS_STA)        | ✅ Completed   |
-| **Week 4**  | ⚡ CMOS Circuit Design (sky130)                 | [Week4](https://github.com/Nideshkanna/week4_CMOS_Circuit_Design_sky130)   | ⏳ In Progress |
-| **Week 5+** | 🎯 Tapeout Prep & Sign-off                     | *(Upcoming)*                                                               | ⏳ Pending     |
+| Week        | Focus Area                                     | Repository Link                                                               | Status      |
+| ----------- | ---------------------------------------------- | ----------------------------------------------------------------------------- | ----------- |
+| **Week 0**  | 🔧 Environment Setup & Tool Installation       | [Week0](https://github.com/Nideshkanna/week0-getting-started)                 | ✅ Done      |
+| **Week 1**  | 📝 RTL Design Flow                             | [Week1](https://github.com/Nideshkanna/week1-rtl-design-flow)                 | ✅ Completed |
+| **Week 2**  | 🔄 BabySoC Functional Verification & Synthesis | [Week2](https://github.com/Nideshkanna/week2-research-babysoc)                | ✅ Completed |
+| **Week 3**  | 🏗️ STA & Timing Analysis                      | [Week3](https://github.com/Nideshkanna/week3_VSDBabySoC_GLS_STA)              | ✅ Completed |
+| **Week 4**  | ⚡ CMOS Circuit Design (sky130)                 | [Week4](https://github.com/Nideshkanna/week4_CMOS_Circuit_Design_sky130)      | ✅ Completed |
+| **Week 5**  | 🎯 OpenROAD Flow — Floorplan & Placement       | [Week5](https://github.com/Nideshkanna/week5_OpenROAD_Installation_and_Setup) | ✅ Completed |
+| **Week 6+** | 🕹️ Clock Tree Synthesis & Routing             | *(Upcoming)*                                                                  | ⏳ Pending   |
 
 ---
 
@@ -125,19 +126,42 @@ Each week has its own dedicated repository:
 
 📌 **Focus:** SPICE-level CMOS design experiments with Sky130 PDK
 
-| Task                          | Description                                | Status        |
-| ----------------------------- | ------------------------------------------ | ------------- |
-| **MOSFET IV Characteristics** | Simulate Id vs Vds for NMOS/PMOS           | ⏳ In Progress |
-| **CMOS Inverter VTC**         | Extract switching threshold, noise margins | ⏳ In Progress |
-| **Transient Delays**          | Rise/fall propagation delays               | ⏳ In Progress |
-| **Supply & Sizing Variation** | Observe impact on VTC, delays, margins     | ⏳ In Progress |
+| Task                          | Description                                | Status      |
+| ----------------------------- | ------------------------------------------ | ----------- |
+| **MOSFET IV Characteristics** | Simulate Id vs Vds for NMOS/PMOS           | ✅ Completed |
+| **CMOS Inverter VTC**         | Extract switching threshold, noise margins | ✅ Completed |
+| **Transient Delays**          | Rise/fall propagation delays               | ✅ Completed |
+| **Supply & Sizing Variation** | Observe impact on VTC, delays, margins     | ✅ Completed |
 
 ### 🌟 Key Learnings
 
-* Deepen understanding of **device physics and its impact on timing**.
-* Prepare intuition for **post-layout STA & critical path optimization**.
+* Deepened understanding of **device physics and its impact on timing**.
+* Prepared intuition for **post-layout STA & critical path optimization**.
 
-📌 *Next step:* Complete Week 4 experiments and document plots, tables, and observations.
+📌 *Outcome:* Week 4 experiments completed and documented.
+
+---
+
+## 📅 Week 5 — OpenROAD Flow: Floorplan & Placement
+
+📌 **Focus:** Installing OpenROAD Flow Scripts and performing **Floorplan and Placement**
+
+| Task                         | Description                                                  | Status      |
+| ---------------------------- | ------------------------------------------------------------ | ----------- |
+| **OpenROAD Installation**    | Cloned, set up, and built OpenROAD Flow Scripts              | ✅ Completed |
+| **Environment Verification** | Verified `yosys` and `openroad` commands                     | ✅ Completed |
+| **Floorplan Stage**          | Defined core area, die dimensions, and I/O placement         | ✅ Completed |
+| **Placement Stage**          | Placed standard cells within the floorplanned core           | ✅ Completed |
+| **Logs & Outputs**           | Checked intermediate files, timing reports, and ODB database | ✅ Completed |
+
+### 🌟 Key Learnings
+
+* Installed **OpenROAD Flow Scripts** and set up the Linux environment.
+* Learned how **core area, die dimensions, and standard cell placement** are determined.
+* Observed how physical constraints affect placement and timing.
+* Generated visual outputs for **floorplan and standard cell placement**.
+
+📌 *Outcome:* Openroad installation completed successfully.
 
 ---
 
@@ -149,10 +173,11 @@ Each week has its own dedicated repository:
 [![Week 1](https://img.shields.io/badge/Week%201-✅%20Completed-green?style=flat-square)](https://github.com/Nideshkanna/week1-rtl-design-flow)
 [![Week 2](https://img.shields.io/badge/Week%202-✅%20Completed-green?style=flat-square)](https://github.com/Nideshkanna/week2-research-babysoc)
 [![Week 3](https://img.shields.io/badge/Week%203-✅%20Completed-green?style=flat-square)](https://github.com/Nideshkanna/week3_VSDBabySoC_GLS_STA)
-[![Week 4](https://img.shields.io/badge/Week%204-In%20Progress-blue?style=flat-square)](https://github.com/Nideshkanna/week4_CMOS_Circuit_Design_sky130)
-![Week 5+](https://img.shields.io/badge/Week%205+-Upcoming-blue?style=flat-square)
+[![Week 4](https://img.shields.io/badge/Week%204-✅%20Completed-green?style=flat-square)](https://github.com/Nideshkanna/week4_CMOS_Circuit_Design_sky130)
+[![Week 5](https://img.shields.io/badge/Week%205-✅%20Completed-green?style=flat-square)](https://github.com/Nideshkanna/week5_OpenROAD_Installation_and_Setup)
+[![Week 6+](https://img.shields.io/badge/Week%206+-Upcoming-blue?style=flat-square)]()
 
-</div>
+</div>  
 
 ---
 
@@ -168,9 +193,9 @@ I am grateful to:
 
 ## 🚀 Next Steps
 
-* Complete **Week 4: CMOS Circuit Design experiments** (SPICE VTC, delays, variation analysis).
-* Analyze results to gain intuition for **timing and noise margins**.
-* Prepare for **Week 5+ Tapeout prep & post-layout STA**.
+* Analyze **Week 5 outputs** (floorplan and placement) for design constraints.
+* Prepare for **Week 6: Clock Tree Synthesis & Routing**, including clock skew and congestion analysis.
+* Continue documenting results and timing metrics for final tapeout.
 
 ---
 
